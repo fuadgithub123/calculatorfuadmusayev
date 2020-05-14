@@ -1,0 +1,101 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --light-grey: #d8d9db;
+    --buttons-on-hover: #ebebeb;
+    --button-active-state: #bbbcbe;
+    --function-buttons: #df974c;
+    --function-buttons-on-hover: #dfb07e;
+    --function-button-active-state: #dd8d37;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #ccc;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.contianer {
+    width: 40rem;    
+
+}
+
+.screen
+
+{
+
+background-color: #000000;
+color: white;
+height: 50px;
+width: 300px;
+font-size: 45px;
+text-align: right;
+
+}
+
+.buttons
+{
+
+  
+}
+
+.row
+{
+
+}
+
+.btn
+{
+	
+background-color: #BBBCBE;
+color: #000000;
+width: 75px; 
+padding: 15px;
+display: inline-block;
+font-size: 35px;
+text-align: center;
+vertical-align: middle;
+margin-right: -6px;
+border-right: solid 1px #000000;
+border-bottom: solid 1px #3C4857;
+border-top: 0px;
+border-left: 0px;
+ 
+transition: background-color 1s
+  
+}
+
+.btn-func
+
+{
+
+background: #df974c;
+
+color: #ffffff;
+
+}
+.clear
+{
+width: 150px;
+}
+.zero
+{
+width: 225px;
+}
+.btn:hover
+{
+
+background-color: #ebebeb;
+	
+transition: background-color 1s,color 0.5s
+
+}
